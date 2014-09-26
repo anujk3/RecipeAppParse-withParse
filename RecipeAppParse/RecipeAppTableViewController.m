@@ -152,6 +152,8 @@
         destViewController.image= [object objectForKey:@"image"];
         destViewController.prepTime = [object objectForKey:@"prepTime"];
         destViewController.ingredients = [object objectForKey:@"ingredients"];
+        
+        destViewController.hidesBottomBarWhenPushed = YES;
     }
 }
 
